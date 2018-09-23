@@ -1,7 +1,4 @@
 # Sam-Pivotal-Deployment-Guides .
 
 
-Accumalation of technical tips and trick... git...
-
-# Test
-,,,
+Accumalation of technical tips and trick... git.
