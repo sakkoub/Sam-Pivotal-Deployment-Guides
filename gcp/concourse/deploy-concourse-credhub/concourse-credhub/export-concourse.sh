@@ -1,5 +1,5 @@
 export CONCOURSE_BOSH_DEPLOYMENT=$PATH_To_CONCOURSE_BOSH_Deployment_Folder
-export CREDHUB_CLIENT=$director_to_credhub
+export CREDHUB_CLIENT=director_to_credhub
 export BOSH_URL=$BOSH_IP
 
 export CONCOURSE_HOST=$CONCOURSE_HOST_IP
