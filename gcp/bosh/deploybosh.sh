@@ -1,0 +1,16 @@
+bosh create-env bosh-deployment/bosh.yml \
+    --state=state.json \
+    -o bosh-deployment/gcp/cpi.yml \
+ -v external_ip=35.189.39.8 \
+    -o bosh-deployment/external-ip-not-recommended.yml\
+   --vars-store=creds.yml \
+    -v director_name=bosh-1 \
+    -v internal_cidr=10.152.0.0/24 \
+    -v internal_gw=10.152.0.1 \
+    -v internal_ip=10.152.0.6 \
+    --var-file gcp_credentials_json=/.creds/sampcfserviceaccountkey.json \
+    -v project_id=cso-pcfs-apj-sakkoub \
+    -v zone=australia-southeast1-c \
+    -v tags=[internal] \
+    -v network=default \
+    -v subnetwork=default
